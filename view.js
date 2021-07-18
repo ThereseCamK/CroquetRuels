@@ -21,35 +21,35 @@ function show(){
         2 gule kort = stå over en runde. <br>
         4 gule kort i ett spill = ute av spillet ! BUHU !!!!
       </p>
-    <h2>1 FEILSLAG </h2>`;
+    <h2>1. FEILSLAG </h2>`;
     for( let i = 0; i < model.rules.length; i ++){
         if (model.rules[i].name === 'feilslag'){
             html += `
           ${showWrongHitsHtml(i)}`
         }
     }
-     html += '<h2> 1  KROKKING </h2>';
+     html += '<h2> 2.  KROKKING </h2>';
     for( let i = 0; i < model.rules.length; i ++){
         if (model.rules[i].name === 'Krokking'){
             html += `
           ${showCrokkingHtml(i)}`
         }
     }
-    html += '<h2>3 PORT-REGLER </h2>';
+    html += '<h2>3. PORT-REGLER </h2>';
     for( let i = 0; i < model.rules.length; i ++){
         if (model.rules[i].name === 'Port-regler'){
             html += `
           ${showGateRulesHtml(i)}`
         }
     }
-    html += '<h2>4  FINALE-REGLER </h2>';
+    html += '<h2>4.  FINALE-REGLER </h2>';
     for( let i = 0; i < model.rules.length; i ++){
         if (model.rules[i].name === 'finale-regler'){
             html += `
           ${showFinalRulesHtml(i)}`
         }
     }
-    html += '<h2>5 ØVRIGE-REGLER </h2>';
+    html += '<h2>5. ØVRIGE-REGLER </h2>';
     for( let i = 0; i < model.rules.length; i ++){
         if (model.rules[i].name === 'øvrige-regler'){
             html += `
