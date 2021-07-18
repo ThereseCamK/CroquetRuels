@@ -34,13 +34,13 @@ const model = {
     },
     {
         number: '2.2',
-        name: 'krokking',
+        name: 'Krokking',
         rule: '- 2 måter å krokke på: enten med foten på egen kulle eller ikke. men du må slå på egen kule. 1 forsøk gjelder ',
         consequences:'- Beveger din kule seg har du mistet røverslaget, er din kule på samme plass har du ett røverslag. dette gjelder uansett om foten er på din kule eller ikke!',
     },
     {
         number: '2.3',
-        name: 'krokking',
+        name: 'Krokking',
         rule: '- I kvalifiseringsrunden- er det IKKE lov til å krokke andre spillere (alle skal få en sjangse her)!, i Semi og finale er dette lov altså!',
         consequences:'- Gult kort! - regler for kort øverst!',
     },
