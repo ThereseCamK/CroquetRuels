@@ -35,8 +35,8 @@ const model = {
     {
         number: '2.2',
         name: 'Krokking',
-        rule: '- 2 måter å krokke på: enten med foten på egen kulle eller ikke. men du må slå på egen kule. 1 forsøk gjelder ',
-        consequences:'- Beveger din kule seg har du mistet røverslaget, er din kule på samme plass har du ett røverslag. dette gjelder uansett om foten er på din kule eller ikke!',
+        rule: '- 2 måter å krokke på: enten med foten på egen kule eller ikke. men du må slå på egen kule. 1 forsøk gjelder ',
+        consequences:'- Beveger din kule seg har du mistet røverslaget, er din kule på samme plass har du ett røverslag. Dette gjelder uansett om foten er på din kule eller ikke!',
     },
     {
         number: '2.3',
@@ -54,7 +54,7 @@ const model = {
         number: '2.5',
         name: 'Krokking',
         rule: '- Dersom du er halvrøver så kan du krokke en røver på pinnen ',
-        consequences:'- Du selv blir da røver ( selv om du ikke har vært gjennom alle portene)',
+        consequences:'- Du blir da selv røver ( selv om du ikke har vært gjennom alle portene)',
     },
     {
         number: '2.6',
@@ -145,7 +145,7 @@ const model = {
         number: '5.6',
         name: 'øvrige-regler',
         rule: '- Det er kun spillere og dommer som får lov til å gå på banen!',
-        consequences:'- Da må du hente drikke til de som ønaker det på banen!',
+        consequences:'- Da må du hente drikke til de som ønsker det på banen!',
     },   
     {
         number: '5.7',
