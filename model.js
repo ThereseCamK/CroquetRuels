@@ -47,7 +47,7 @@ const model = {
     {
         number: '2.4',
         name: 'Krokking',
-        rule: '- Du har ikke lov til å krokke en som ikke er røver på pinnen',
+        rule: '- Du har ikke lov til å krokke en som ikke er halv-røver på pinnen',
         consequences:'- Du selv er ute av spillet!',
     },
     {

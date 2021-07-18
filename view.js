@@ -62,7 +62,7 @@ function show(){
 function showWrongHitsHtml(index){
 html = ``
             html += `
-            <hr> 
+        <hr>
             <div class="number">Nr: ${model.rules[index].number}</div> 
             <p>Regel: <br>${model.rules[index].rule}</p>
             <tt> ${model.rules[index].consequences} </tt>`
