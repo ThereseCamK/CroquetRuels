@@ -1,6 +1,6 @@
 function view(){
 let html = ``;
-html += `<h1> Velkommen Til den Årlige Turneringen</h1><br><h4>ThereseBall- Edition </h4>
+html += `<div class="firstPage"> </div><h1> Velkommen Til den Årlige Krokkert-Turneringen</h1><br><h4>ThereseBall- Edition </h4>
 <p> <h2> Dato: 31.07.2021 kl 13.00 </h2> <br>
 -  Det blir delt inn i 4 puljer på selve dagen. 1 og 2 plass går til semifinale <br> <br> 
 -  1. plassene møter hverandre i ett grupperspill og 2. plassene i ett gruppespill.<br> <br>
@@ -62,7 +62,8 @@ function show(){
 function showWrongHitsHtml(index){
 html = ``
             html += `
-            <hr> Nr: ${model.rules[index].number} <br>
+            <hr> 
+            <div class="number">Nr: ${model.rules[index].number}</div> 
             <p>Regel: <br>${model.rules[index].rule}</p>
             <tt> ${model.rules[index].consequences} </tt>`
         
@@ -72,7 +73,7 @@ html = ``
 function showCrokkingHtml(index){
     html = ``
                 html += `
-                <hr>Nr: ${model.rules[index].number} <br>
+                <hr><div class="number">Nr: ${model.rules[index].number} </div>
                 <p>Regel:<br> ${model.rules[index].rule}</p>
                 <tt> ${model.rules[index].consequences} </tt>`
             return html
@@ -80,7 +81,7 @@ function showCrokkingHtml(index){
     function showGateRulesHtml(index){
         html = ``
                     html += `
-                    <hr>Nr: ${model.rules[index].number} <br>
+                    <hr><div class="number">Nr: ${model.rules[index].number} </div>
                     <p>Regel:<br> ${model.rules[index].rule}</p>
                     <tt> ${model.rules[index].consequences} </tt>`
                 return html
@@ -89,7 +90,7 @@ function showCrokkingHtml(index){
     function showFinalRulesHtml(index){
         html = ``
                 html += `
-                <hr>Nr: ${model.rules[index].number} <br>
+                <hr><div class="number">Nr: ${model.rules[index].number} </div>
                 <p>Regel:<br> ${model.rules[index].rule}</p>
                 <tt> ${model.rules[index].consequences} </tt>`
         return html
@@ -97,7 +98,7 @@ function showCrokkingHtml(index){
     function showGeneralRulesHtml(index){
         html = ``
                 html += `
-                <hr>Nr: ${model.rules[index].number} <br>
+                <hr><div class="number">Nr: ${model.rules[index].number} </div>
                 <p>Regel:<br> ${model.rules[index].rule}</p>
                 <tt> ${model.rules[index].consequences} </tt>`
         return html
