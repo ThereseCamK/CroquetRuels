@@ -1,6 +1,6 @@
 function view(){
 let html = ``;
-html += `<div class="firstPage"> </div><h1> Velkommen Til den Årlige Krokkert-Turneringen</h1><br><h4>ThereseBall- Edition </h4>
+html += `<div class="firstPage"> </div><h1> Velkommen Til den Årlige Krokkert-Turneringen</h1><br>
 <p> <h2> Dato: 31.07.2021 kl 13.00 </h2> <br>
 -  Det blir delt inn i 4 puljer på selve dagen. 1 og 2 plass går til semifinale <br> <br> 
 -  1. plassene møter hverandre i ett grupperspill og 2. plassene i ett gruppespill.<br> <br>
