@@ -1,6 +1,5 @@
 const model = {
-    rules:[
-        
+    rules:[     
     {
         number: '1.1',
         name: 'feilslag',
@@ -19,12 +18,7 @@ const model = {
         rule: '- Ikke lov å skyte seg selv på pinnen',
         consequences:' - Du er ute av spillet',
     },
-    {
-        number: '1.4',
-        name: 'feilslag',
-        rule: '- Hvis du tilfeldigvis treffer en ikke-røver sin kule på pinnen!',
-        consequences:' - Du er ute av spillet',
-    },
+    
     
     {
         number: '2.1',
@@ -38,57 +32,58 @@ const model = {
         rule: '- 2 måter å krokke på: enten med foten på egen kule eller ikke. men du må slå på egen kule. 1 forsøk gjelder ',
         consequences:'- Beveger din kule seg har du mistet røverslaget, er din kule på samme plass har du ett røverslag. Dette gjelder uansett om foten er på din kule eller ikke!',
     },
+    //roger mener denne skal bort
+    // {
+    //     number: '2.3',
+    //     name: 'Krokking',
+    //     rule: '- I kvalifiseringsrunden- er det IKKE lov til å krokke andre spillere (alle skal få en sjangse her)!, i Semi og finale er dette lov altså!',
+    //     consequences:'- Gult kort! - regler for kort øverst!',
+    // },
+    // {
+    //     number: '2.3',
+    //     name: 'Krokking',
+    //     rule: '- Du har ikke lov til å krokke en som ikke er halv-røver på pinnen',
+    //     consequences:'- Du selv er ute av spillet!',
+    // },
     {
         number: '2.3',
-        name: 'Krokking',
-        rule: '- I kvalifiseringsrunden- er det IKKE lov til å krokke andre spillere (alle skal få en sjangse her)!, i Semi og finale er dette lov altså!',
-        consequences:'- Gult kort! - regler for kort øverst!',
-    },
-    {
-        number: '2.4',
-        name: 'Krokking',
-        rule: '- Du har ikke lov til å krokke en som ikke er halv-røver på pinnen',
-        consequences:'- Du selv er ute av spillet!',
-    },
-    {
-        number: '2.5',
         name: 'Krokking',
         rule: '- Dersom du er halvrøver så kan du krokke en røver på pinnen ',
         consequences:'- Du blir da selv røver ( selv om du ikke har vært gjennom alle portene)',
     },
     {
-        number: '2.6',
+        number: '2.4',
         name: 'Krokking',
         rule: '- Du har ikke lov til å krokke noen hvis du ikke selv er blitt halvrøver',
         consequences:'- Gult-Kort! - regler for kort øverst!',
     },
     {
-        number: '2.7',
+        number: '2.5',
         name: 'Krokking',
         rule: '- Dersom du blir krokket og kulen di havner inntil en annen kule',
         consequences:'- Den andre spilleren kan da IKKE krokke deg dens neste slag og du kan ikke krokke den andre!',
     },
-    {
-        number: '3.1',
-        name: 'Port-regler',
-        rule: '- Hvis du blir krokket eller dyttet mellom en port som du ikke selv har slått slaget!',
-        consequences:'- Du må selv rundt og igjennom porten RIKTIG VEI!',
-    },
+    // {
+    //     number: '3.1',
+    //     name: 'Port-regler',
+    //     rule: '- Hvis du blir krokket eller dyttet mellom en port som du ikke selv har slått slaget!',
+    //     consequences:'- Du må selv rundt og igjennom porten RIKTIG VEI!',
+    // },
     
     {
-        number: '3.2',
+        number: '3.1',
         name: 'Port-regler',
         rule: '- Hele kulen må være igjennom porten',
         consequences:'- Du får ikke ekstra slag før DU selv har slått kulen gjennom hele. ',
     },
+    // {
+    //     number: '3.2',
+    //     name: 'Port-regler',
+    //     rule: '- Stopper kulen midt i krysset får du ingen ekstra slag!',
+    //     consequences:'.. Når du har klart begge får du 2. ',
+    // },
     {
-        number: '3.3',
-        name: 'Port-regler',
-        rule: '- Stopper kulen midt i krysset får du ingen ekstra slag!',
-        consequences:'- Du må tilbake og prøve igjen neste runde',
-    },
-    {
-        number: '3.4',
+        number: '3.2',
         name: 'Port-regler',
         rule: '- Du må igjennom begge portene i krysset samtidig!',
         consequences:'- Du må tilbake og prøve igjen neste runde og får da 2 slag når du klarer begge!',
